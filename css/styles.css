@@ -136,6 +136,7 @@ section {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  fill: #afb1b8;
 }
 
 .footer-social .social-links-icon {
@@ -302,15 +303,17 @@ section {
     url("../images/hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   max-width: 1600px;
   padding-top: 0;
   padding-bottom: 0;
+  margin: 0 auto;
 }
 
 .section-hero .container {
   padding-top: 200px;
   padding-bottom: 200px;
-  max-width: 726px;
+  width: 726px;
   text-align: center;
 }
 
@@ -591,6 +594,8 @@ section {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.6);
   transition: border-color 250ms var(--cubic);
 }
 
@@ -602,9 +607,7 @@ section {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-  padding-left: 16px;
 }
 
 .footer-input-btn {
@@ -715,6 +718,8 @@ section {
   outline: none;
   width: 100%;
   font: inherit;
+  width: 448px;
+  height: 40px;
   border-radius: 4px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding-left: 42px;
